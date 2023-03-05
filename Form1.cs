@@ -16,5 +16,11 @@ namespace modul3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nama = textBox1.Text;
+            MessageBox.Show("Halo, " + nama);
+        }
     }
 }
